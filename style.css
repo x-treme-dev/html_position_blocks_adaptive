@@ -15,7 +15,6 @@ body{
     margin: 0 auto 0 auto;
 }
 
-
 .main__text{
    width: 60%;
    line-height: 1.2em;
@@ -106,6 +105,34 @@ body{
     .main__sign{
         width:35vw;
         height:10vh;
+    }
+}
+
+@media (min-width:320px) and (max-width:600px){
+    .main__text{
+        width: 100%;
+        margin-top: 2%;
+        font-size: 0.9em;
+     }
+
+    .main__images{
+        width: 100%;
+        position: static;
+        display:flex;
+        flex-direction: column;
+        margin-top: 5%;
+        font-size: 0.8em;
+    }
+
+    .main__img{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .main__sign{
+        width:100%;
+        height:7vh;
     }
 }
 
